@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  nexus:
+    image: sonatype/nexus
+    user: "${UID}:${GID}"
+    volumes:
+      - "/docdata/nexus-data:/sonatype-work"
+    ports:
+      - "8081:8081"
+    restart: always
+

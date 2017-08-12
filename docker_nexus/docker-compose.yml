@@ -3,7 +3,6 @@ version: "2"
 services:
   nexus:
     image: sonatype/nexus
-    user: "${UID}:${GID}"
     volumes:
       - "/docdata/nexus-data:/sonatype-work"
     ports:

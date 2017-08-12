@@ -4,7 +4,7 @@
 Training container using docker-compose.
 
 ## Required Setting
-* If you use reverse proxy, you should erase about ports settings in docker-compose.yml(Because of deny access using http://<IP address>:<port>). 
+* If you use reverse proxy, you should erase about ports settings in docker-compose.yml (Because of deny access using http://IPaddress:port). 
 ### Nexus
 * Reference: https://github.com/sonatype/docker-nexus
   * user: admin

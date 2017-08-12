@@ -4,7 +4,7 @@ Devops Train
 Training container using docker-compose.
 
 * Required Setting
-** Nexus
+ * Nexus
 ```bash
 echo 'UID=0' > .env
 echo 'GID=0' >> .env
